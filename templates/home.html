@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SMS/EMAIL SPAM PREDICTION</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body style="background-color:rgb(193, 210, 122);">
+<div class="login">
+    <h1>SMS/EMAIL SPAM PREDICTION</h1>
+    <p style="color:DodgerBlue;"><b>By Shubham Verma</b></p>
+    <p><a href="https://www.linkedin.com/in/shubhamverma3023/" target="_blank"><b>Follow me on LinkedIn</b></a></p>
+    <p><a href="https://github.com/Shubham3023" target="_blank"><b>Follow me on GitHub</b></a></p>
+    <p>
+        <b>Enter the Message</b>
+    </p>
+    <form action="{{url_for('prediction')}}" method="POST" text-align: center>
+        <input type="text" name="Message" placeholder="Message" required="required" size="50"/><br>
+        
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Click to Predict</button>
+
+    </form>
+   <br>
+   <br>
+</div>
+    <b>{{prediction_value}}</b>
+</body>
+</html>
