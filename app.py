@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import pickle
+import joblib
 import os, sys
 from exception import CustomException
 from logger import logging
@@ -10,9 +10,9 @@ from nltk.stem.porter import PorterStemmer
 
 ### loading model and scalar object
 logging.info("Reading model object from model.sav file")
-model=pickle.load(open('Models\model.sav', 'rb'))
+model=joblib.load('Models\model.sav')
 logging.info("Reading Vectorizer object from vectorizer.sav file")
-vectorizer=pickle.load(open('Models\Tfidf.sav', 'rb'))
+vectorizer=joblib.load(r'Models\vectorizer.sav')
 
 stemmer= PorterStemmer()
 
@@ -59,15 +59,18 @@ def prediction():
     try:
         logging.info("Getting data from the web form for prediction")
         data=[str(x) for x in request.form.values()]
+        logging.info("transforming data using text transformer function")
         transformed_text=text_transformer(data[0])
+        logging.info("Converting text to vector using vectorize object")
         vectorized_text=vectorizer.transform([transformed_text])
+        logging.info("Generating model prediction using model object")
         output=model.predict(vectorized_text)
         if output==1:
             logging.info("Model Prediction is: Message is Spam.")
             output= "Message is Spam."
         else:
-            logging.info("Model Prediction is: Message is ham.")
-            output="Message is ham."
+            logging.info("Model Prediction is: Message is ham i.e. Normal.")
+            output="Message is ham i.e. Normal."
         logging.info("Returning model prediction to web application")
         return render_template("home.html",prediction_value="Model Prediction: {}".format(output))
     except Exception as e:
