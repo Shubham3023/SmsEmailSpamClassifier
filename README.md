@@ -5,8 +5,7 @@
 
 
 ### Problem Statement
-Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
-
+The Problem statement is to classify the messages into Spam or Ham classes.
 This is a Binary Classification problem, in which the affirmative class (one) indicates that the message is spam, while the negative class(zero)
 indicates that the message is ham i.e. Normal.
 
