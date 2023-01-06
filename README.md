@@ -52,7 +52,7 @@ Notebook link: https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/N
 - Extra Tree Classifier, AdaBoost Classifier, GradientBoost Classifier, K Neighbours Classifier, XGBoost Classifier. 
 - Support Vector Classifier gives same precision score as that of Multinomial Naive Bayes
 
-3.3.3 Experiments to increase Precision score
+3.3.3 Experiments to increase Accuracy score.
 - TF-IDF with max_features hyper-parameter. Here accuracy score of best model increases with max precision score.
 - Voting Classifier on top 3 Models. No significant change in precision score and accuracy score of best model.
 - Using No. of characters column. Accuracy score of best model decreases.
