@@ -1,4 +1,4 @@
-# SMS EMAIL Spam Classification.
+# SMS EMAIL Spam Classification
 <div>
 <img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/image.jpg" width="700" height="400" alt="SMS Spam Classification"/>
 </div>
@@ -20,6 +20,8 @@ The collection is composed by just one text file, where each line has the correc
 6. spam URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU
 
 ### Solution Proposed 
+- Here model is trained on SMS spam dataset
+- Same code can be used for Email classification with same model or with model trained on Email spam dataset.
 In this project, the affirmative class (one) indicates that the message is spam, while the negative class(zero)
 indicates that the message is ham i.e. Normal.
 
