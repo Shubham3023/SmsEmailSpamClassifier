@@ -56,7 +56,8 @@ Notebook link:
 3.3.4 Best model 
 - Multinomial Naive Bayes along with TF-IDF and max_features equal to 3500.
 
-3.3.5 Deployment
+
+### Deployment
 - Web app is created for single prediction.
 - Batch Prediction script is created for bulk prediction.
 
