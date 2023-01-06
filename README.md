@@ -32,7 +32,7 @@ indicates that the message is ham i.e. Normal.
 
 - The following steps are performed in Jupyter notebook:
 
-Notebook link: 
+Notebook link: https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Spam%20Classification.ipynb
 
 1. Basic data Cleaning and EDA
 2. Data pre-processing (lowercase, tokenisation, special character removal, stemming)
