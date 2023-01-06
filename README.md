@@ -113,7 +113,7 @@ pip install -r requirements.txt
 <img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/application.png" alt="Web Application" />
 
 ## Spam Prediction
-<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Spam%20pred.jpg" alt="Positive Model Prediction" />
+<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Spam%20pred.jpg" alt="Spam Model Prediction" />
 
 ## Ham Prediction
-<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Ham%20Pred.jpg" alt="Negative Model Prediction" />
+<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Ham%20Pred.jpg" alt="Ham Model Prediction" />
