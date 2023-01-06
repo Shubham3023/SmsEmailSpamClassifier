@@ -10,6 +10,8 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 This is a Binary Classification problem, in which the affirmative class (one) indicates that the message is spam, while the negative class(zero)
 indicates that the message is ham i.e. Normal.
 
+Dataset: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
+
 ### Attributes
 The collection is composed by just one text file, where each line has the correct class followed by the raw message. Some examples are listed below:
 1. ham What you doing?how are you?
