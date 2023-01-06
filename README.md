@@ -29,6 +29,7 @@ indicates that the message is ham i.e. Normal.
 - False Positive => The message is ham but model prediction is spam. This will lead to receipt of important messages.
 
 - The following steps are performed in Jupyter notebook:
+
 Notebook link: 
 
 1. Basic data Cleaning and EDA
