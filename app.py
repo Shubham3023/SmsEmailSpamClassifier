@@ -29,13 +29,13 @@ logging.info("Creating Prediction route")
 @app.route('/prediction',methods=['POST'])
 def prediction():
     try:
-        logging.info("Getting data from the web form for prediction")
+        logging.info("Getting input data from the flask form for prediction")
         data=[str(x) for x in request.form.values()]
-        logging.info("transforming data using text transformer function")
+        logging.info("Transforming data using text transformer function")
         transformed_text=text_transformer(data[0])
-        logging.info("Converting text to vector using vectorize object")
+        logging.info("Converting text to vector using saved TFIDF object")
         vectorized_text=vectorizer.transform([transformed_text])
-        logging.info("Generating model prediction using model object")
+        logging.info("Generating model prediction using saved model object")
         output=model.predict(vectorized_text)
         if output==1:
             logging.info("Model Prediction is: Message is Spam.")
