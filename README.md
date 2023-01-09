@@ -12,7 +12,7 @@ indicates that the message is ham i.e. Normal.
 Dataset: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
 
 ### Attributes
-The collection is composed by just one text file, where each line has the correct class followed by the raw message. Some examples are listed below:
+The collection is composed of just one text file, where each line has the correct class followed by the raw message. Some examples are listed below:
 1. ham What you doing?how are you?
 2. ham Ok lar... Joking wif u oni...
 3. ham dun say so early hor... U c already then say...
