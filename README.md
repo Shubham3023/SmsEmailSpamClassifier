@@ -115,7 +115,7 @@ pip install -r requirements.txt
 ```
 
 ## Web Application
-<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/application.png" alt="Web Application" />
+<img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/application.jpg" alt="Web Application" />
 
 ## Spam Prediction
 <img src="https://github.com/Shubham3023/SmsEmailSpamClassifier/blob/main/Notebook/Spam%20pred.jpg" alt="Spam Model Prediction" />
