@@ -27,7 +27,7 @@ The collection is composed of just one text file, where each line has the correc
 indicates that the message is ham i.e. Normal.
 
 - The aim is to correctly classify the messages and reduce False Positive.
-- False Positive => The message is ham but model prediction is spam. This will lead to receipt of important messages.
+- False Positive => The message is ham but model prediction is spam. Due to this the user may miss out on important messages.
 
 - The following steps are performed in Jupyter notebook:
 
